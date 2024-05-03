@@ -3,8 +3,8 @@
   background-color: #ecffff;
   width: 240px;
   list-style-type: none;
-  border: black 2px solid;
-  border-radius: 8px;
+  border: black 3px solid;
+  border-radius: 10px;
   padding: 10px 5px 15px 5px;
   display: flex;
   flex-direction: column;
@@ -12,12 +12,17 @@
   align-items: center;
   text-shadow: none;
   gap: 10px;
-  transition: background-color 550ms linear;
+  transition: background-color 350ms ease, border-radius 250ms ease,
+    scale 200ms ease;
+
   &:hover {
-    background-color: rgba(192, 192, 192, 0.9);
+    background-color: rgba(230, 229, 229, 0.5);
     box-sizing: border-box;
-    border: black 2px dashed;
-    transition: background-color 550ms linear;
+    border: black 3px dashed;
+    border-radius: 2px;
+    scale: 1.02;
+    transition: background-color 550ms ease, border-radius 300ms ease,
+      scale 300ms ease;
   }
 }
 
