@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-shadow: none;
   gap: 10px;
   transition: background-color 550ms linear;
   &:hover {
@@ -22,6 +23,8 @@
 
 .contactTitle {
   text-transform: uppercase;
+  text-shadow: 0 0 0 transparent;
+  filter: none;
 }
 .contactBtn {
   background-color: orangered;
