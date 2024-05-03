@@ -21,6 +21,7 @@
     border: black 3px dashed;
     border-radius: 2px;
     scale: 1.02;
+    cursor: pointer;
     transition: background-color 550ms ease, border-radius 300ms ease,
       scale 300ms ease;
   }
