@@ -40,15 +40,14 @@
   width: 90px;
   height: 35px;
   padding: 0;
-  transition: 300ms linear, color 300ms linear;
+  transition: background-color 250ms linear, color 150ms linear;
 }
 
 .contactBtn:hover {
   color: black;
   border: 1px solid orangered;
   background-color: #e0ffff;
-
-  transition: 300ms linear, color 300ms linear;
+  transition: background-color 350ms linear, color 200ms linear;
 }
 .contactText {
   width: 100%;

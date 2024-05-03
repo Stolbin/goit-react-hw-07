@@ -46,9 +46,12 @@
   border-radius: 5px;
   transition: background-color 0.2s ease-in-out;
   margin-bottom: 10px;
+  transition: background-color 350ms ease, font-weight 350ms ease;
 }
 
 .formBtn:hover,
 .formBtn:focus {
   background-color: rgb(192, 190, 190);
+  font-weight: 600;
+  transition: background-color 550ms ease, font-weight 550ms ease;
 }
