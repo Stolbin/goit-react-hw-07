@@ -8,7 +8,7 @@ const Contact = ({ contact }) => {
     <li className={css.contactItem}>
       <h4 className={css.contactTitle}>{name}</h4>
       <p className={css.contactText}>
-        <span className={css.spanontactText}>tel:</span>
+        <span className={css.spanontactText}>☎️</span>
         {number}
       </p>
       <button
