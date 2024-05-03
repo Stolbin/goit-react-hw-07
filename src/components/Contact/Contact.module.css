@@ -1,0 +1,52 @@
+.contactItem {
+  box-sizing: border-box;
+  background-color: #ecffff;
+  width: 240px;
+  list-style-type: none;
+  border: black 2px solid;
+  border-radius: 8px;
+  padding: 10px 5px 15px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 550ms linear;
+  &:hover {
+    background-color: rgba(192, 192, 192, 0.9);
+    box-sizing: border-box;
+    border: black 2px dashed;
+    transition: background-color 550ms linear;
+  }
+}
+
+.contactTitle {
+  text-transform: uppercase;
+}
+.contactBtn {
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 8px;
+  color: #fff;
+  width: 90px;
+  height: 35px;
+  padding: 0;
+  transition: 300ms linear, color 300ms linear;
+}
+
+.contactBtn:hover {
+  color: black;
+  border: 1px solid orangered;
+  background-color: #e0ffff;
+
+  transition: 300ms linear, color 300ms linear;
+}
+.contactText {
+  width: 100%;
+  text-align: center;
+}
+.spanontactText {
+  font-weight: 600;
+  font-style: italic;
+  margin-right: 5%;
+}
