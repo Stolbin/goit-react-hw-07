@@ -8,7 +8,6 @@ const ContactList = () => {
 
   return (
     <div className={css.contactListBox}>
-      {" "}
       <ul className={css.contactList}>
         {filterContact.map((contact) => (
           <Contact key={contact.id} contact={contact} />
